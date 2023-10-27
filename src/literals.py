@@ -20,6 +20,16 @@ e = 1_000_000 # more readable
 
 print(e)
 
+f = 'A'
+
+print(ord(f))
+print(type(f))
+
+g = True
+
+print(g)
+print(type(g))
+
 ''' Output: 
 1000000000.0
 1000000000
@@ -27,4 +37,8 @@ print(e)
 291
 <class 'float'>
 1000000
+65
+<class 'str'>
+True
+<class 'bool'>
 '''
